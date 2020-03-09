@@ -20,6 +20,7 @@ DOMAIN,hls.itunes.apple.com,全球网站
 DOMAIN,api-glb-sea.smoot.apple.com,全球网站
 # > Appcake
 DOMAIN-SUFFIX,iphonecake.com,全球网站
+HOST-SUFFIX,appcake.com,全球网站
 # >> Dictionary
 DOMAIN,lookup-api.apple.com,全球网站
 # > 微软
@@ -85,6 +86,7 @@ DOMAIN-SUFFIX,ytimg.com,全球网站
 
 # > Github
 DOMAIN-SUFFIX,github.io,全球网站
+DOMAIN-SUFFIX,github.com,全球网站
 DOMAIN-SUFFIX,gist.github.com,全球网站
 DOMAIN-SUFFIX,githubusercontent.com,全球网站
 
