@@ -1,0 +1,42 @@
+# 如无特殊需求可不用加此策略及选择代理，在大部分地区 Apple CDN 可正常工作，使用代理后可能导致「Cannot Connect to iCloud」等问题
+# > Apple
+DOMAIN-SUFFIX,me.com,苹果服务
+DOMAIN-SUFFIX,apple.co,苹果服务
+DOMAIN-SUFFIX,apple.com,苹果服务
+DOMAIN-SUFFIX,icloud.com,苹果服务
+DOMAIN-SUFFIX,aaplimg.com,苹果服务
+DOMAIN-SUFFIX,mzstatic.com,苹果服务
+DOMAIN-SUFFIX,appstore.com,苹果服务
+DOMAIN-SUFFIX,cdn-apple.com,苹果服务
+DOMAIN-SUFFIX,crashlytics.com,苹果服务
+DOMAIN-SUFFIX,guzzoni.apple.com,苹果服务
+DOMAIN-SUFFIX,icloud-content.com,苹果服务
+DOMAIN,www-cdn.icloud.com.akadns.net,苹果服务
+# > Apple News and Apple Map TOMTOM Version
+DOMAIN,gspe1-ssl.ls.apple.com,全球网站
+DOMAIN,news-client.apple.com,全球网站
+USER-AGENT,com.apple.news*,全球网站
+USER-AGENT,AppleNews*,全球网站
+DOMAIN-SUFFIX,apple.news,全球网站
+DOMAIN,news-edge.apple.com,全球网站
+DOMAIN,news-events.apple.com,全球网站
+DOMAIN,apple.comscoreresearch.com,全球网站
+# 关于 App Store 下载卡转圈
+DOMAIN,p14-buy.itunes.apple.com,全球网站
+//Siri
+USER-AGENT,*AssistantServices*,DIRECT
+USER-AGENT,MobileAsset*,DIRECT
+USER-AGENT,Siri*,DIRECT
+USER-AGENT,*siri*,DIRECT
+IP-CIDR,17.0.0.0/8,苹果服务
+# >> TestFlight
+DOMAIN,testflight.apple.com,DIRECT
+# >屏蔽系统升级更新
+DOMAIN,xp.apple.com,REJECT
+DOMAIN,ocsp.apple.com,REJECT
+DOMAIN,mesu.apple.com,REJECT
+DOMAIN,gdmf.apple.com,REJECT
+DOMAIN,world-gen.g.aaplimg.com,REJECT
+DOMAIN,updates-http.cdn-apple.com,REJECT
+
+
