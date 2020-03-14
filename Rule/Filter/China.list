@@ -34,10 +34,7 @@ DOMAIN-SUFFIX,ykimg.com,DIRECT
 DOMAIN-SUFFIX,youku.com,DIRECT
 DOMAIN-SUFFIX,xiami.com,DIRECT
 DOMAIN-SUFFIX,xiami.net,DIRECT
-ip-cidr,203.119.144.235/32,direct
-ip-cidr,203.119.144.233/32,direct
-ip-cidr,203.119.145.12/32,direct
-ip-cidr,203.119.175.223/32,direct
+
 
 # > Baidu
 DOMAIN-SUFFIX,baidu.com,DIRECT
