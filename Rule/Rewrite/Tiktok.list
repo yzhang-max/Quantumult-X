@@ -1,15 +1,15 @@
-# Tiktok 港区 10.1.0
+# Tiktok 美区 (tf和商店版)
 (.*video_id=\w{32})(.*watermark=)(.*) url 302 $1
-(?<=version_code=)\d{1,}.\d{1}\.\d{1} url 307 9.2.0    
-#(美区版本号修改为14.2.0,直连情况下) 
+(?<=version_code=)\d{1,}.\d{1}\.\d{1} url 307 14.2.0    
+#(港区区版本号修改为9.2.0,直连情况下可登录) 
 
 #解锁tiktok日、台、港、韩
-(?<=(carrier|account|sys|sim)_region=)CN url 307 JP
+(?<=(carrier|account|sys|current)_region=)CN url 307 JP
 
-(?<=(carrier|account|sys|sim)_region=)CN url 307 TW
+;(?<=(carrier|account|sys|current)_region=)CN url 307 TW
 
-(?<=(carrier|account|sys|sim)_region=)CN url 307 HK 
+;(?<=(carrier|account|sys|current)_region=)CN url 307 HK 
 
-(?<=(carrier|account|sys|sim)_region=)CN url 307 KR
+;(?<=(carrier|account|sys|current)_region=)CN url 307 KR
 
-hostname =  *.musical.ly, *.tiktokv.com,*.tiktokcdn.com, api*.amemv.com, aweme*.snssdk.com,  api*.tiktokv.com
+hostname =  *.musical.ly,*.tiktokv.com,*.tiktokcdn.com,api*.amemv.com,aweme*.snssdk.com,api*.tiktokv.com
