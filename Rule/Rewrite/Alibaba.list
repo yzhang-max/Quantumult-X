@@ -4,6 +4,7 @@ hostname = gw.alicdn.com,gw.alicdn.cn,heic.alicdn.com,img.alicdn.com,guide-acs.m
 ^https?:\/\/(gw|heic)\.alicdn\.com\/.*\.jpg_(9\d{2}|\d{4}) url reject-200
 # >> 淘宝 & 特价版 & 淘宝联盟
 ^https?:\/\/gw\.alicdn\.com\/tfs\/[a-zA-Z0-9]{27}(-\d{4}){2}(\.pn|\.jp)g((_\d{3}x\d{3}q90\.jpg_\.webp)?) url reject
+^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/.+\?rnd=\w++&data\=.+Splash url reject-200
 ;^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/.+\?rnd=\w++&data\=(.+Splash)* url reject-200
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.common\.fetTimestamp url reject-200
 ^https?:\/\/emdcadvertise\.eastmoney\.com\/infoService url reject-200
