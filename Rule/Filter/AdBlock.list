@@ -68,7 +68,6 @@ DOMAIN-SUFFIX,medialytics.com,REJECT
 DOMAIN-SUFFIX,meetrics.com,REJECT
 DOMAIN-SUFFIX,meetrics.net,REJECT
 DOMAIN-SUFFIX,miaozhen.com,REJECT
-DOMAIN-SUFFIX,mmstat.com,REJECT
 DOMAIN-SUFFIX,moatads.com,REJECT
 DOMAIN-SUFFIX,mobclix.com,REJECT
 DOMAIN-SUFFIX,mopub.com,REJECT
@@ -98,6 +97,7 @@ DOMAIN-SUFFIX,vungle.com,REJECT
 DOMAIN-SUFFIX,wedolook.com,REJECT
 DOMAIN-SUFFIX,wshtgame.com,REJECT
 DOMAIN-SUFFIX,xdrig.com,REJECT
+DOMAIN-SUFFIX,de3wa.com,REJECT
 DOMAIN-SUFFIX,zu08e.cn,REJECT
 DOMAIN-SUFFIX,ad.daum.net,REJECT
 DOMAIN,vali.cp31.ott.cibntv.net.302.myalicdn.com,reject
