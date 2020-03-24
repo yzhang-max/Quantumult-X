@@ -1,6 +1,7 @@
 hostname= api.m.jd.com,img10.360buyimg.com,jr.jd.com,app-api.smzdm.com,img1.360buyimg.com,*.meituan.net,img.suning.cn,app-api.smzdm.com,*.jr.jd.com,thor.weidian.com,api.m.jd.com,pic1.zhuanstatic.com,cube.elemecdn.com
 # > JD
 ;^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=(start|queryMaterialAdverts) url reject-200
+^https:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$ url reject-200
 ^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ url reject-200
 ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo url reject-200
 ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture url reject-200
@@ -9,6 +10,9 @@ hostname= api.m.jd.com,img10.360buyimg.com,jr.jd.com,app-api.smzdm.com,img1.360b
 ^https?:\/\/img1\.360buyimg\.com\/pop\/jfs.+\.jpg url reject-200
 # > 京东金融
 ^https:\/\/img10\.360buyimg\.com\/mcmktresadmin\/.+\.jpg url reject-200
+
+^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture url reject-200
+
 # > 美团
 ^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/.+\.(gif|jpg|jpg\.webp)$ url reject-200
 ^https?:\/\/p\d\.meituan\.net\/wmbanner\/[A-Za-z0-9]+\.jpg url reject-200
