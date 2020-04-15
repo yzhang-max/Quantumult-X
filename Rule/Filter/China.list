@@ -111,6 +111,8 @@ DOMAIN-SUFFIX,mi-img.com,DIRECT
 DOMAIN-SUFFIX,miui.com,DIRECT
 DOMAIN-SUFFIX,miwifi.com,DIRECT
 DOMAIN-SUFFIX,xiaomi.com,DIRECT
+DOMAIN,app-analytics.huami.com,direct
+DOMAIN,api.tophub.today,direct
 # > Microsoft
 DOMAIN-SUFFIX,microsoft.com,DIRECT
 DOMAIN-SUFFIX,msecnd.net,DIRECT

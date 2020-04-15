@@ -63,7 +63,7 @@ http:\/\/imgwx\.3-ye\.cn\/img\/ios\/htb\/haitunbaobiantione|qiandaoimage|headbgV
 # >> 腾讯视频
 ;^https?:\/\/btrace.qq.com url reject-200
 ^https?:\/\/vv\.video\.qq\.com\/getvmind\? url reject-200
-^https?:\/\/.+\.mp4.+&sdtfrom=v3004 url reject-array
+^https?:\/\/.+\.mp4.+&sdtfrom=v3004 url reject-dict
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/.+\.tc\.qq\.com\/.+p201\.1\.mp4\? url reject-img
 
 # >> 网易云音乐

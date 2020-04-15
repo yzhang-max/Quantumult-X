@@ -68,6 +68,8 @@ DOMAIN-SUFFIX,medialytics.com,REJECT
 DOMAIN-SUFFIX,meetrics.com,REJECT
 DOMAIN-SUFFIX,meetrics.net,REJECT
 DOMAIN-SUFFIX,miaozhen.com,REJECT
+DOMAIN-SUFFIX,mess-lab.com,REJECT
+DOMAIN-SUFFIX,cercube.com,REJECT
 DOMAIN-SUFFIX,moatads.com,REJECT
 DOMAIN-SUFFIX,mobclix.com,REJECT
 DOMAIN-SUFFIX,mopub.com,REJECT
@@ -147,6 +149,7 @@ DOMAIN,traffic.mogujie.com,REJECT
 DOMAIN-SUFFIX,cercube.com,REJECT
 DOMAIN-SUFFIX,bduserlog.eastmoney.com,REJECT
 DOMAIN,appservices.comcsoft.com,REJECT
+
 # > 58 同城
 DOMAIN,adshow.58.com,REJECT
 DOMAIN,track.58.com,REJECT
