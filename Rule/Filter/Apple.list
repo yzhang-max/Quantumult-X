@@ -23,6 +23,7 @@ DOMAIN,news-events.apple.com,全球网站
 DOMAIN,apple.comscoreresearch.com,全球网站
 # 关于 App Store 下载卡转圈
 DOMAIN,p14-buy.itunes.apple.com,全球网站
+DOMAIN,p51-buy.itunes.apple.com,全球网站
 //Siri
 USER-AGENT,*AssistantServices*,DIRECT
 USER-AGENT,MobileAsset*,DIRECT
