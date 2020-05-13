@@ -9,7 +9,7 @@
 
 ;(?<=(carrier|account|sys|current)_region=)CN url 307 KR
 
-(.*video_id=\w{32})(.*watermark=)(.*) url 302 $1
+;(.*video_id=\w{32})(.*watermark=)(.*) url 302 $1
 (?<=version_code=)\d{1,}.\d{1}\.\d{1} url 307 14.2.0
 #(港区区版本号修改为9.2.0,直连情况下可登录) 
 
