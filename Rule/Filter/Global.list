@@ -528,6 +528,8 @@ USER-AGENT,Roam*,全球网站
 DOMAIN,neukssr.club,全球网站
 DOMAIN,ssrrss.lochat.cc,全球网站
 DOMAIN-SUFFIX,fox-d.top,全球网站
+DOMAIN-SUFFIX,yingyun-d.pw,全球网站
+
 
 # > Other
 USER-AGENT,Working%20Copy*,全球网站
@@ -570,6 +572,7 @@ DOMAIN-SUFFIX,hk-pub.com,全球网站
 DOMAIN-SUFFIX,hosting.co.uk,全球网站
 DOMAIN-SUFFIX,hwcdn.net,全球网站
 DOMAIN-SUFFIX,ifixit.com,全球网站
+DOMAIN-SUFFIX,ip-api.com,全球网站
 DOMAIN-SUFFIX,iphone4hongkong.com,全球网站
 DOMAIN-SUFFIX,iphonetaiwan.org,全球网站
 DOMAIN-SUFFIX,iptvbin.com,全球网站
@@ -587,6 +590,7 @@ DOMAIN-SUFFIX,smartmailcloud.com,全球网站
 DOMAIN-SUFFIX,sparknotes.com,全球网站
 DOMAIN-SUFFIX,streetvoice.com,全球网站
 DOMAIN-SUFFIX,supertop.co,全球网站
+DOMAIN-SUFFIX,shrtm.nu,全球网站
 DOMAIN-SUFFIX,tv.com,全球网站
 DOMAIN,testflight.center,全球网站
 DOMAIN-SUFFIX,typepad.com,全球网站
