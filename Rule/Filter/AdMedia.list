@@ -384,7 +384,7 @@ host, list.z.qingting.fm, reject
 host, ad.ximalaya.com, reject
 host, adse.ximalaya.com, reject
 host, ad.12306.cn, reject
-host, logs.am, rejectap.com, reject
+host, logs.amap.com, reject
 host, ad.thsi.cn, reject
 host, adm.10jqka.com.cn, reject
 host, ads.voiceads.cn, reject
