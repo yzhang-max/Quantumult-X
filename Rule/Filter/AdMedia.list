@@ -376,7 +376,7 @@ host, r.youmi.net, reject
 host, stat.gw.youmi.net, reject
 host, track.dmp.youmi.net, reject
 host, bid.adview.cn, reject
-host, ad.bayescom,com, reject
+host, ad.bayescom.com, reject
 host, shuttle.bayescom.com, reject
 host, ad.qingting.fm, reject
 host, s.qtad.qingting.fm, reject
