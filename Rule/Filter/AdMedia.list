@@ -1,4 +1,3 @@
-
 #pkg=white.ad.web.com;浏览器播放视频提示误伤（不√下两条）
 host, t7z.cupid.iqiyi.com, reject
 host, livew.l.qq.com, reject
@@ -347,7 +346,7 @@ host, adashxgc.ut.taobao.com, reject
 host, topapi.cp12.wasu.tv, reject
 host, countatm.cp12.wasu.tv, reject
 
-#pkg=ad.adwars.com, reject;大圣净化规则
+#pkg=ad.adwars.com;大圣净化规则
 host, bds.snssdk.com, reject
 host, mon.snssdk.com, reject
 host, extlog.snssdk.com, reject
@@ -465,7 +464,7 @@ host, engine.lvehaisen.com, reject
 host, pg-ad-b1.ws.126.net, reject
 host, pg-ad-b2.ws.126.net, reject
 host, yt-adp.ws.126.net, reject
-host, yt-adv.bn.net, rejectease.com, reject
+host, yt-adv.bn.netease.com, reject
 host, m.xsm98e.cn, reject
 host, e.xsm98e.cn, reject
 host, doubleclick.ctfile.com, reject
@@ -491,7 +490,7 @@ host, df.mic.mob.com, reject
 host, dfe.mic.mob.com, reject
 host, l.gm.mob.com, reject
 host, f.gm.mob.com, reject
-host, js.users.51.la
+host, js.users.51.la, reject
 host, av1.xdrig.com, reject
 host, adpai.thepaper.cn, reject
 host, df.tanx.com, reject
@@ -519,10 +518,10 @@ host, rz.w8r4q.cn, reject
 host, m.89kvh.cn, reject
 host, ok.4qn9c.cn, reject
 host, ee.89kvh.cn, reject
-host, xn--mtso8sj6menhyil.online
+host, xn--mtso8sj6menhyil.online, reject
 host, wx.sifakaoshi360.com, reject
 host, pv.vipwm.cc, reject
-host, xn--xhq9mt12cf5v.website
+host, xn--xhq9mt12cf5v.website, reject
 host, r2.tschewang.com, reject
 host, 80vn.cn, reject
 host, www.hxcav77.com, reject
@@ -716,7 +715,7 @@ host, req1.appads.com, reject
 host, req2.appads.com, reject
 host, req3.appads.com, reject
 host, swappit.tapad.com, reject
-host, campaign-tapad.s3.am, rejectazonaws.com, reject
+host, campaign-tapad.s3.amazonaws.com, reject
 host, adsrv1.tapad.com, reject
 host, ads1.mojiva.com, reject
 host, ads2.mojiva.com, reject
@@ -777,13 +776,13 @@ host, cdn.mdotm.com, reject
 host, ads2.greystripe.com, reject
 host, adsx.greystripe.com, reject
 host, c.greystripe.com, reject
-host, aax-us-east.am, rejectazon-adsystem.com, reject
-host, aax-us-west.am, rejectazon-adsystem.com, reject
-host, s.am, rejectazon-adsystem.com, reject
-host, admarvel.s3.am, rejectazonaws.com, reject
-host, html5adkit.plusmo.s3.am, rejectazonaws.com, reject
-host, inneractive-assets.s3.am, rejectazonaws.com, reject
-host, strikeadcdn.s3.am, rejectazonaws.com, reject
+host, aax-us-east.amazon-adsystem.com, reject
+host, aax-us-west.amazon-adsystem.com, reject
+host, s.amazon-adsystem.com, reject
+host, admarvel.s3.amazonaws.com, reject
+host, html5adkit.plusmo.s3.amazonaws.com, reject
+host, inneractive-assets.s3.amazonaws.com, reject
+host, strikeadcdn.s3.amazonaws.com, reject
 host, a.admob.com, reject
 host, analytics.admob.com, reject
 host, c.admob.com, reject
@@ -796,7 +795,7 @@ host, mobileads.msn.com, reject
 host, aos.wall.youmi.net, reject
 host, au.youmi.net, reject
 host, coconuts.boy.jp, reject
-host, iacpromotion.s3.am, rejectazonaws.com, reject
+host, iacpromotion.s3.amazonaws.com, reject
 host, plugin.2easydroid.com, reject
 host, adimg3.search.naver.net, reject
 host, ads.adadapted.com, reject
@@ -1056,7 +1055,7 @@ host, cdn.districtm.io, reject
 host, cm.adgrx.com, reject
 host, cm.ctnsnet.com, reject
 host, cm.eyereturn.com, reject
-host, cm.net, rejectseer.com, reject
+host, cm.netseer.com, reject
 host, cms.quantserve.com, reject
 host, cr-p16.ladsp.com, reject
 host, cti.w55c.net, reject
@@ -1069,7 +1068,7 @@ host, i.w55c.net, reject
 host, magnetic.t.domdex.com, reject
 host, map.media6degrees.com, reject
 host, match.adsby.bidtheatre.com, reject
-host, match.prod.bidr.io
+host, match.prod.bidr.io, reject
 host, match.rundsp.com, reject
 host, mpp.vindicosuite.com, reject
 host, onetag-sys.com, reject
@@ -1086,12 +1085,12 @@ host, pxl.connexity.net, reject
 host, r.254a.com, reject
 host, rbp.emea.mxptint.net, reject
 host, rbp.mxptint.net, reject
-host, rc2waycm-atl.net, rejectmng.com, reject
+host, rc2waycm-atl.netmng.com, reject
 host, rcp.c.appier.net, reject
 host, rp.gwallet.com, reject
 host, rub.pxl.ace.advertising.com, reject
 host, rubicon-match.dotomi.com, reject
-host, sync-dsp.ad-m.asia
+host, sync-dsp.ad-m.asia, reject
 host, sync-tm.everesttech.net, reject
 host, sync.1rx.io, reject
 host, sync.adaptv.advertising.com, reject
@@ -1132,7 +1131,7 @@ host, ad.cacafly.com, reject
 host, ad.funp.com, reject
 host, ad.hiiir.com, reject
 host, ad.jamba.net, reject
-host, ad.jamster.co.uk
+host, ad.jamster.co.uk, reject
 host, ad.obuy.tw, reject
 host, ads.fetnet.net, reject
 host, ads.ign.com, reject
@@ -1150,9 +1149,9 @@ host, api.adbana.com, reject
 host, apistat.adbana.com, reject
 host, cnf.adbana.com, reject
 host, stat.adbana.com, reject
-host, api.adcom, rejecte.cn, reject
-host, music.adcom, rejecte.cn, reject
-host, res.adcom, rejecte.cn, reject
+host, api.adcome.cn, reject
+host, music.adcome.cn, reject
+host, res.adcome.cn, reject
 host, aduu.cn, reject
 host, mgr.aduu.cn, reject
 host, res.aduu.cn, reject
@@ -1532,7 +1531,7 @@ host, admd.yam.com, reject
 host, admeld.adnxs.com, reject
 host, adm.icast.cn, rwject
 host, adm.leju.sina.com.cn, reject
-host, ad.net, rejectowl.jp, reject
+host, ad.netowl.jp, reject
 host, adnet.sohu.com, reject
 host, adn.insight.ucweb.com, reject
 host, a.domob.cn, reject
