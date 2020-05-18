@@ -376,8 +376,8 @@ host, r.youmi.net, reject
 host, stat.gw.youmi.net, reject
 host, track.dmp.youmi.net, reject
 host, bid.adview.cn, reject
-host, ad.bayescom, reject.com, reject
-host, shuttle.bayescom, reject.com, reject
+host, ad.bayescom,com, reject
+host, shuttle.bayescom.com, reject
 host, ad.qingting.fm, reject
 host, s.qtad.qingting.fm, reject
 host, list.z.qingting.fm, reject
@@ -613,13 +613,13 @@ host, ad.where.com, reject
 host, i.tapit.com, reject
 host, cdn1.crispadvertising.com, reject
 host, cdn2.crispadvertising.com, reject
-host, medrx.sensis.com, reject.au
+host, medrx.sensis.com.au, reject
 host, rs-staticart.ybcdn.net, reject
 host, img.ads.taptapnetworks.com, reject
 host, adserver.ubiyoo.com, reject
 host, c753738.r38.cf2.rackcdn.com, reject
 host, edge.reporo.net, reject
-host, ads.n-ws.org
+host, ads.n-ws.org, reject
 host, adultmoda.com, reject
 host, ads.smartdevicemedia.com, reject
 host, b.scorecardresearch.com, reject
@@ -1136,9 +1136,9 @@ host, ad.jamster.co.uk
 host, ad.obuy.tw, reject
 host, ads.fetnet.net, reject
 host, ads.ign.com, reject
-host, ads.ttv.com, reject.tw
-host, drd.hauchi.com, reject.tw
-host, ysm.hauchi.com, reject.tw
+host, ads.ttv.com.tw, reject
+host, drd.hauchi.com.tw, reject
+host, ysm.hauchi.com.tw, reject
 host, r.pixgold.com, reject
 host, ad.evozi.com, reject
 host, a.api.ad-locus.com, reject
@@ -1515,7 +1515,7 @@ host, adfuture.cn, reject
 host, ad.gamebox.360.cn, reject
 host, adgeo.163.com, reject
 host, ad.greedland.net, reject
-host, adimages.sina.com, reject.hk
+host, adimages.sina.com.hk, reject
 host, adimg.daumcdn.net, reject
 host, adimg.deviantart.net, reject
 host, adimg.mobile.sina.cn, reject
@@ -1582,7 +1582,7 @@ host, adslvfile.qq.com, reject
 host, adslvseed.qq.com, reject
 host, adsmogo.com, reject
 host, ads.msn.com, reject
-host, ads.ninemsn.com, reject.au
+host, ads.ninemsn.com.au, reject
 host, ad.sohu.com, reject
 host, adsolution.imtt.qq.com, reject
 host, ads.pubmatic.com, reject
