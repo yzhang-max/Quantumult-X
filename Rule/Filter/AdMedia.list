@@ -1529,7 +1529,7 @@ host, ad.mail.sohu.com, reject
 host, adm.baidu.com, reject
 host, admd.yam.com, reject
 host, admeld.adnxs.com, reject
-host, adm.icast.cn, rwject
+host, adm.icast.cn, reject
 host, adm.leju.sina.com.cn, reject
 host, ad.netowl.jp, reject
 host, adnet.sohu.com, reject
