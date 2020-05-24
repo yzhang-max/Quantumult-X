@@ -102,8 +102,8 @@ DOMAIN-SUFFIX,xdrig.com,REJECT
 DOMAIN-SUFFIX,de3wa.com,REJECT
 DOMAIN-SUFFIX,zu08e.cn,REJECT
 DOMAIN-SUFFIX,ad.daum.net,REJECT
-DOMAIN,vali.cp31.ott.cibntv.net.302.myalicdn.com,reject
-;DOMAIN-SUFFIX,ossgw.alicdn.com,reject
+DOMAIN,vali.cp31.ott.cibntv.net.302.myalicdn.com,REJECT
+;DOMAIN-SUFFIX,ossgw.alicdn.com,REJECT
 DOMAIN-SUFFIX,track.xiachufang.com,REJECT
 DOMAIN-SUFFIX,settings.crashlytics.com,REJECT
 DOMAIN,abema-adx.ameba.jp,REJECT
@@ -161,9 +161,9 @@ DOMAIN-SUFFIX,ads.internal.unity3d.com,REJECT
 DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com,REJECT
 DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
 # > 苹果证书验证
-DOMAIN,ocsp.apple.com,reject
-DOMAIN,ocsp.dcocsp.cn,reject
-DOMAIN,e.crashlytics.com,reject
+DOMAIN,ocsp.apple.com,REJECT
+DOMAIN,ocsp.dcocsp.cn,REJECT
+DOMAIN,e.crashlytics.com,REJECT
 # > 阿里巴巴
 DOMAIN,acs4baichuan.m.taobao.com,REJECT
 DOMAIN,adash.m.taobao.com,REJECT
@@ -254,10 +254,10 @@ DOMAIN,goblin.hupu.com,REJECT
 DOMAIN,ifacelog.iqiyi.com,REJECT
 DOMAIN,msg.qy.net,REJECT
 DOMAIN,msg.71.am,REJECT
-DOMAIN,sns-paopao.iqiyi.com, reject
-DOMAIN,card-paopao.iqiyi.com, reject
+DOMAIN,sns-paopao.iqiyi.com, REJECT
+DOMAIN,card-paopao.iqiyi.com, REJECT
 DOMAIN,t7z.cupid.iqiyi.com,REJECT
-DOMAIN,paopao-monitor.iqiyi.com, reject
+DOMAIN,paopao-monitor.iqiyi.com, REJECT
 DOMAIN-SUFFIX,baiducdncmn.inter.iqiyi.com,REJECT
 IP-CIDR,101.227.97.240/32,REJECT
 IP-CIDR,101.227.200.11/32,REJECT
@@ -447,7 +447,7 @@ DOMAIN,ad.mobile.youku.com,REJECT
 DOMAIN,iyes.youku.com,REJECT
 DOMAIN,vali.cp31.ott.cibntv.net,REJECT
 # > 央视频
-;DOMAIN,jacc.ysp.cctv.cn,reject
+;DOMAIN,jacc.ysp.cctv.cn,REJECT
 # (Z)
 # > ZOL
 DOMAIN,apppv.zol.com.cn,REJECT
