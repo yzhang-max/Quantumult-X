@@ -934,7 +934,7 @@ DOMAIN, h-adashx.ut.taobao.com, REJECT
 DOMAIN, tunion-api.m.taobao.com, REJECT
 DOMAIN, baichuan-sdk.alicdn.com, REJECT
 DOMAIN, acs4baichuan.m.taobao.com, REJECT
-DOMAIN, amdc.m.taobao.com, REJECT
+;DOMAIN, amdc.m.taobao.com, REJECT
 DOMAIN, amdcopen.m.taobao.com, REJECT
 DOMAIN, pss.alicdn.com, REJECT
 DOMAIN, eco.taobao.com, REJECT
