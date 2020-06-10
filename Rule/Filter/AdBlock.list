@@ -379,6 +379,7 @@ DOMAIN-SUFFIX,l.qq.com,REJECT
 DOMAIN-SUFFIX,lives.l.qq.com,REJECT
 DOMAIN-SUFFIX,rqd.qq.com,REJECT
 DOMAIN,adsmind.tc.qq.com,REJECT
+DOMAIN,mi.gdt.qq.com,REJECT
 DOMAIN,adsmind.apdcdn.tc.qq.com,REJECT
 DOMAIN,btrace.qq.com,REJECT
 DOMAIN,mtrace.qq.com,REJECT

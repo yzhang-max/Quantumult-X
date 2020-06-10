@@ -45,6 +45,7 @@ http:\/\/imgwx\.3-ye\.cn\/img\/ios\/htb\/haitunbaobiantione|qiandaoimage|headbgV
 ^https?:\/\/.+\/cdn-adn\/ url reject-200
 ^https?:\/\/ggic\d?\.cmvideo\.cn\/ad\/ url reject-200
 ^https?:\/\/.+/img\/ad\.union\.api\/ url reject-200
+
 # > 人人视频
 ^https?:\/\/msspjh\.emarbox\.com\/getAdConfig url reject-200
 ^https?:\/\/api\.videozhishi\.com\/api\/getAdvertising url reject-200

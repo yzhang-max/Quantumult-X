@@ -940,7 +940,7 @@ DOMAIN, pss.alicdn.com, REJECT
 DOMAIN, eco.taobao.com, REJECT
 DOMAIN, umengacs.m.taobao.com, REJECT
 DOMAIN, ilce.alicdn.com, REJECT
-#pkg=xxx.ad.doubleclick.net, REJECT;广告联盟
+#pkg=xxx.ad.doubleclick.net;广告联盟
 DOMAIN, ad.doubleclick.net, REJECT
 DOMAIN, cm.g.doubleclick.net, REJECT
 DOMAIN, googleads.g.doubleclick.net, REJECT

@@ -377,6 +377,12 @@ http:\/\/h5\.nty\.tv189\.com\/api\/tactics\/\w+\/banneradv url reject-200
 # >> Tencent WeChat
 ^https?:\/\/mp\.weixin\.qq\.com\/(s|mp)\/(ad_|advertisement|report|appmsgreport|appmsgpicreport) url reject-200
 
+# 头条系
+https:\/\/i\.snssdk\.com\/slardar\/sdk\.js url reject-dict
+https:\/\/smr\.snssdk\.com\/c\/m url reject-dict
+https:\/\/ug\.snssdk\.com\/ad\/impression\/toutiao\/ url reject-dict
+
+
 # > other
 ^https:\/\/adsmind\.apdcdn\.tc\.qq\.com\/adsmind\.tc\.qq\.com\/.+\.mp4 url reject-200
 # > Thunder
