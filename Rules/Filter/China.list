@@ -36,7 +36,6 @@ DOMAIN-SUFFIX,xiami.com,DIRECT
 DOMAIN-SUFFIX,xiami.net,DIRECT
 DOMAIN-SUFFIX,ossgw.alicdn.com,DIRECT
 
-
 # > Baidu
 DOMAIN-SUFFIX,baidu.com,DIRECT
 DOMAIN,libs.baidu.com, direct
